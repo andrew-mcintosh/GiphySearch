@@ -1,0 +1,43 @@
+header {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search-gif {
+	padding: 5px;
+}
+
+#search-button {
+	color: green;
+	border: 1px solid black;
+}
+
+#reset-button {
+	width: 200px;
+	color: red;
+	border: 1px solid black;
+}
+
+.container {
+	padding-top: 25px;
+	display: flex;
+	flex-direction: wrap;
+}
+
+img {
+	width: 30%;
+	height: 250px;
+	padding: 10px;
+}
+
+@media all and (max-width: 800px) {
+    img {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    img {
+        width: 90%;
+    }
+}
